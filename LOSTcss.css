@@ -1,0 +1,384 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo{
+    padding-left: 42%;
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+nav a,label{
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+nav label{
+    font-size: 40px;
+    padding-left: 35px;
+    margin-right: 850px;
+}
+
+.buttons{
+    margin-left: 1%;
+}
+
+.buttons button{
+    background-color: rgb(67, 143, 67);
+    font-size: 17px;
+    border: none;
+    border-radius: 35px;
+    width: 195px;
+    padding: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 20px;
+}
+
+.buttons button a, .blogLetter{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons button:hover, .blogLetter:hover{
+    font-weight: bolder;
+}
+
+.blog{
+    display: none;
+}
+
+.blogLetter{
+    background-color: rgb(67, 143, 67);
+    font-size: 17px;
+    border: none;
+    border-radius: 35px;
+    width: 195px;
+    padding: 10px;
+    left: 50%;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-left: 44%;
+}
+
+.asia,.europe,.africa,.north-america,.south-america,.australia,.antartica{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.asia img,.europe img,.africa img,.north-america img,.south-america img,.australia img,.antartica  img{
+    padding-left: 3%;
+    width: 23%;
+    height: 23%;
+}
+
+.asia p,.europe p,.africa p,.north-america p,.south-america p,.australia p,.antartica  p{
+    padding-left: 3%;
+    padding-right: 2%;
+    font-size: 120%;
+    border-right: 1px solid black;
+    
+}
+
+#asia,#europe,#africa,#north-america,#south-america,#australia,#antartica{
+    padding: 1%;
+    margin: 1%;
+}
+
+.packing h2{
+    padding-left: 55px;
+    font-size: 200%;
+}
+
+.packing p{
+    padding-left: 65px;
+    font-size: 130%;
+}
+
+.trekking h2{
+    padding-left: 55px;
+    font-size: 200%;
+}
+
+.trekking p{
+    padding-left: 65px;
+    font-size: 130%;
+}
+
+.tips-head button{
+    background-color: rgb(67, 143, 67);
+    font-size: 20px;
+    border: none;
+    border-radius: 35px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.tips-head button a{
+    text-decoration: none;
+    color: white;
+}
+
+.tips-head button:hover{
+    font-weight: bolder;
+}
+
+.PRAJVAL,.KETAN,.LALITH{
+    text-decoration: none;
+    color: black;
+}
+
+.PRAJVAL:hover,.KETAN:hover,.LALITH:hover{
+    color: blue;
+    font-weight: bolder;
+
+}
+
+.founders{
+    text-align: center;
+    font-size: 120%;
+}
+
+.last_part h2, .start_part h2, .start_part2 h2{
+    padding-left: 1%;
+}
+
+.last_part p, .start_part p, .start_part2 p{
+    padding-left: 3%;
+    font-size: 120%;
+}
+
+.last_part, .start_part, .start_part2{
+    padding-top: 2%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 120%;
+    padding-left: 1%;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin-top: 2.5%;
+}
+
+.start_part2{
+    padding-bottom: 2%;
+}
+
+
+/* login popup design*/
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.popup-content{
+    background-color: rgba(40, 35, 35);
+    margin: 10% auto;
+    z-index: 2;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 20%;
+    font-weight: bolder;
+    align-items: center;
+}
+.popup-content input{
+    background-color: rgba(40, 35, 35);
+    border: none;
+    border-bottom: solid rgb(143, 143, 143) 2px;
+    color:lightgrey;
+    z-index: 1;
+    width: 80%;
+    font-size: 120%;
+    margin-top: 5%;
+    padding: 2%;
+    margin-left: 8%;
+}
+.popup-content button {
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+    width: 84%;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 2%;
+    margin-left: 8%;
+    border: 2px solid rgb(143, 143, 143);
+}
+.show {
+    display: block;
+}
+.popup-content p{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    letter-spacing: 1%;
+    color: white;
+}
+
+
+/* sign in popup*/
+.popup1 {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.popup-content1{
+    background-color: rgba(40, 35, 35);
+    margin: 10% auto;
+    z-index: 2;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 20%;
+    font-weight: bolder;
+    align-items: center;
+
+}
+.popup-content1 input{
+    background-color: rgba(40, 35, 35);
+    border: none;
+    border-bottom: solid rgb(143, 143, 143) 2px;
+    color:lightgrey;
+    z-index: 1;
+    width: 80%;
+    font-size: 120%;
+    margin-top: 7%;
+    padding: 2%;
+    margin-left: 8%;
+
+}
+.popup-content1 button {
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+    width: 84%;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 2%;
+    margin-left: 8%;
+    border: 2px solid rgb(143, 143, 143);
+}
+.popup-content1 p{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    letter-spacing: 1%;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+
+/*PROFILE POPUP*/
+.popup3 {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
+.popup-content3{
+    background-color: rgba(40, 35, 35);
+    margin: 10% auto;
+    z-index: 2;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 20%;
+    font-weight: bolder;
+    align-items: center;
+
+}
+.popup-content3 input{
+    background-color: rgba(40, 35, 35);
+    border: none;
+    border-bottom: solid rgb(143, 143, 143) 2px;
+    color:lightgrey;
+    z-index: 1;
+    width: 80%;
+    font-size: 120%;
+    margin-top: 7%;
+    padding: 2%;
+    margin-left: 8%;
+
+}
+.popup-content3 button {
+    display: block;
+    margin: 0 auto;
+    z-index: 2;
+    width: 84%;
+    text-align: center;
+    font-size: 150%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    padding: 2%;
+    margin-left: 8%;
+    border: 2px solid rgb(143, 143, 143);
+}
+.popup-content3 p{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    letter-spacing: 1%;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.hide{
+    display: none;
+}
